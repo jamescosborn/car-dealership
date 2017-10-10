@@ -29,7 +29,7 @@ namespace CarDealership.Controllers
       List<Car> allCars = Car.GetAll();
       return View(allCars);
     }
-    [HttpPost("/CarList/clear")]
+    [HttpPost("/car/list/clear")]
     public ActionResult CarListClear()
     {
       Car.ClearAll();
