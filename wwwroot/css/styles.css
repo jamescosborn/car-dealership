@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here');
+
+h1, h2, h3 {
+  font-family: 'Just Me Again Down Here', cursive;
+}
+
+.jumbotron {
+  background-color: orange;
+  text-align: center;
+  text-shadow: 1px 1px black;
+}
+
+.form-control {
+  width: 50%;
+}
+
+#salesman {
+  margin-top: 10px;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  height: 200px;
+  width: 100%;
+  color: #CCC;
+  background: #333;
+  padding: 8px;
+}
+
+#footer-img
+{
+  float: right;
+  height: 200px;
+}

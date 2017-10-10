@@ -1,13 +1,27 @@
-<h1>Used Car Dealership</h1>
+@{
+  Layout = "_Layout";
+  }
 <h2>Add a used car to the lot:</h2>
 <form action="/car/create" method="post">
-  <label for="new-makemodel">Enter the make model:</label>
-  <input id="new-makemodel" name="new-makemodel" type="text">
-  <label for="new-year">Enter the year:</label>
-  <input id="new-year" name="new-year" type="text">
-  <label for="new-price">Enter the price:</label>
-  <input id="new-price" name="new-price" type="number">
-  <label for="new-mileage">Enter the mileage:</label>
-  <input id="new-mileage" name="new-mileage" type="number">
-  <button type="submit">Submit</button>
+  <div class="form-group">
+    <label for="new-makemodel">Enter the make model:</label>
+    <input id="new-makemodel" name="new-makemodel" type="text" class="form-control">
+  </div>
+  <div class="form-group">
+    <label for="new-year">Enter the year:</label>
+    <input id="new-year" name="new-year" type="text" class="form-control">
+  </div>
+  <div class="form-group">
+    <label for="new-price">Enter the price:</label>
+    <input id="new-price" name="new-price" type="number" class="form-control">
+  </div>
+  <div class="form-group">
+    <label for="new-mileage">Enter the mileage:</label>
+    <input id="new-mileage" name="new-mileage" type="number" class="form-control">
+  </div>
+  <div class="form-group">
+    <button type="submit">Submit</button>
+  </div>
 </form>
+
+<img src="/img/salesman.jpg" id="salesman">
