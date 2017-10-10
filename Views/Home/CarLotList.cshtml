@@ -1,0 +1,14 @@
+<h1>Current Used Cars Available</h1>
+
+  @foreach(var Car in Model)
+  {
+    <ul>
+    <li>Model: @Car.GetMakeModel()</li>
+    <li>Year: @Car.GetYear()</li>
+    <li>Price: @Car.GetPrice()</li>
+    <li>mileage: @Car.GetMileage()</li>
+    </ul>
+  }
+
+<p><a href="/">Go back to main page</a></p>
+<p><a href="/CarList/clear">Clear the lot</a></p>
